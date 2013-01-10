@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class JbD_Opus001ViewController;
-
-@interface JbD_Opus001AppDelegate : UIResponder <UIApplicationDelegate>
+@interface JbD_Opus001_AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) JbD_Opus001ViewController *viewController;
+@property (strong, nonatomic) UINavigationController *mainNavController;
 
 @end

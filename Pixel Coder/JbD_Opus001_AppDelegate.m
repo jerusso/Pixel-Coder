@@ -6,20 +6,30 @@
 //  Copyright (c) 2013 John E Russo. All rights reserved.
 //
 
-#import "JbD_Opus001AppDelegate.h"
+#import "JbD_Opus001_AppDelegate.h"
+#import "JbD_Opus001_MainViewController.h"
 
-#import "JbD_Opus001ViewController.h"
+@implementation JbD_Opus001_AppDelegate
 
-@implementation JbD_Opus001AppDelegate
+@synthesize window;
+@synthesize mainNavController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[JbD_Opus001ViewController alloc] initWithNibName:@"JbD_Opus001ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    //main vc init
+    JbD_Opus001_MainViewController *mainViewController = [[JbD_Opus001_MainViewController alloc] init];
+    self.mainNavController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    
+    //set root view as nav controller and main vc combo
+    self.window.rootViewController = self.mainNavController;
+    
+    //show customized view
     [self.window makeKeyAndVisible];
-    return YES;
+    
+    return YES;;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -30,7 +40,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

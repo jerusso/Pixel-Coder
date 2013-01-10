@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "JbD_Opus001AppDelegate.h"
+#import "JbD_Opus001_AppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JbD_Opus001AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([JbD_Opus001_AppDelegate class]));
     }
 }

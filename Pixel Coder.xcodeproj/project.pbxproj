@@ -12,12 +12,22 @@
 		04E3E691169E1F1500E6EC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E690169E1F1500E6EC37 /* CoreGraphics.framework */; };
 		04E3E697169E1F1500E6EC37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E695169E1F1500E6EC37 /* InfoPlist.strings */; };
 		04E3E699169E1F1500E6EC37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E698169E1F1500E6EC37 /* main.m */; };
-		04E3E69D169E1F1500E6EC37 /* JbD_Opus001AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E69C169E1F1500E6EC37 /* JbD_Opus001AppDelegate.m */; };
-		04E3E69F169E1F1500E6EC37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E69E169E1F1500E6EC37 /* Default.png */; };
-		04E3E6A1169E1F1500E6EC37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6A0169E1F1500E6EC37 /* Default@2x.png */; };
-		04E3E6A3169E1F1500E6EC37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6A2169E1F1500E6EC37 /* Default-568h@2x.png */; };
-		04E3E6A6169E1F1500E6EC37 /* JbD_Opus001ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E6A5169E1F1500E6EC37 /* JbD_Opus001ViewController.m */; };
-		04E3E6A9169E1F1500E6EC37 /* JbD_Opus001ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6A7169E1F1500E6EC37 /* JbD_Opus001ViewController.xib */; };
+		04E3E69D169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E69C169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.m */; };
+		04E3E6B3169E201900E6EC37 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B2169E201900E6EC37 /* Icon@2x.png */; };
+		04E3E6B5169E203300E6EC37 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B4169E203300E6EC37 /* Icon.png */; };
+		04E3E6B7169E204000E6EC37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B6169E204000E6EC37 /* Default.png */; };
+		04E3E6B9169E204C00E6EC37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B8169E204C00E6EC37 /* Default@2x.png */; };
+		04E3E6BB169E206000E6EC37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */; };
+		04E3E6BE169E20DF00E6EC37 /* bs_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */; };
+		04E3E6BF169E20DF00E6EC37 /* bs_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */; };
+		04E3E6C2169E20F600E6EC37 /* toButton_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C0169E20F600E6EC37 /* toButton_normal.png */; };
+		04E3E6C3169E20F600E6EC37 /* toButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */; };
+		04E3E6C6169E210C00E6EC37 /* keypad_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C4169E210C00E6EC37 /* keypad_normal.png */; };
+		04E3E6C7169E210C00E6EC37 /* keypad_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */; };
+		04E3E6CA169E21F400E6EC37 /* JbD_Opus001_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */; };
+		04E3E6CD169E228900E6EC37 /* JbD_Opus001_Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E6CC169E228900E6EC37 /* JbD_Opus001_Converter.m */; };
+		04E3E6D2169E30AB00E6EC37 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6D1169E30AB00E6EC37 /* iTunesArtwork@2x.png */; };
+		04E3E6D4169E30E600E6EC37 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6D3169E30E600E6EC37 /* iTunesArtwork.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +39,26 @@
 		04E3E696169E1F1500E6EC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04E3E698169E1F1500E6EC37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E3E69A169E1F1500E6EC37 /* Pixel Coder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixel Coder-Prefix.pch"; sourceTree = "<group>"; };
-		04E3E69B169E1F1500E6EC37 /* JbD_Opus001AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001AppDelegate.h; sourceTree = "<group>"; };
-		04E3E69C169E1F1500E6EC37 /* JbD_Opus001AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001AppDelegate.m; sourceTree = "<group>"; };
-		04E3E69E169E1F1500E6EC37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		04E3E6A0169E1F1500E6EC37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		04E3E6A2169E1F1500E6EC37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		04E3E6A4169E1F1500E6EC37 /* JbD_Opus001ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001ViewController.h; sourceTree = "<group>"; };
-		04E3E6A5169E1F1500E6EC37 /* JbD_Opus001ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001ViewController.m; sourceTree = "<group>"; };
-		04E3E6A8169E1F1500E6EC37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JbD_Opus001ViewController.xib; sourceTree = "<group>"; };
+		04E3E69B169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001_AppDelegate.h; sourceTree = "<group>"; };
+		04E3E69C169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001_AppDelegate.m; sourceTree = "<group>"; };
+		04E3E6B2169E201900E6EC37 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		04E3E6B4169E203300E6EC37 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		04E3E6B6169E204000E6EC37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		04E3E6B8169E204C00E6EC37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bs_button_normal.png; path = ../../../WiP/Icons/Apps/Opus001/bs_button_normal.png; sourceTree = "<group>"; };
+		04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bs_button_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/bs_button_pressed.png; sourceTree = "<group>"; };
+		04E3E6C0169E20F600E6EC37 /* toButton_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toButton_normal.png; path = ../../../WiP/Icons/Apps/Opus001/toButton_normal.png; sourceTree = "<group>"; };
+		04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toButton_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/toButton_pressed.png; sourceTree = "<group>"; };
+		04E3E6C4169E210C00E6EC37 /* keypad_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keypad_normal.png; path = ../../../WiP/Icons/Apps/Opus001/keypad_normal.png; sourceTree = "<group>"; };
+		04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keypad_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/keypad_pressed.png; sourceTree = "<group>"; };
+		04E3E6C8169E21F400E6EC37 /* JbD_Opus001_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001_MainViewController.h; sourceTree = "<group>"; };
+		04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001_MainViewController.m; sourceTree = "<group>"; };
+		04E3E6CB169E228900E6EC37 /* JbD_Opus001_Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001_Converter.h; sourceTree = "<group>"; };
+		04E3E6CC169E228900E6EC37 /* JbD_Opus001_Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001_Converter.m; sourceTree = "<group>"; };
+		04E3E6CE169E22A700E6EC37 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		04E3E6D1169E30AB00E6EC37 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		04E3E6D3169E30E600E6EC37 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 		04E3E67D169E1F1500E6EC37 = {
 			isa = PBXGroup;
 			children = (
+				04E3E6D3169E30E600E6EC37 /* iTunesArtwork.png */,
+				04E3E6D1169E30AB00E6EC37 /* iTunesArtwork@2x.png */,
 				04E3E692169E1F1500E6EC37 /* Pixel Coder */,
 				04E3E68B169E1F1500E6EC37 /* Frameworks */,
 				04E3E689169E1F1500E6EC37 /* Products */,
@@ -83,11 +107,12 @@
 		04E3E692169E1F1500E6EC37 /* Pixel Coder */ = {
 			isa = PBXGroup;
 			children = (
-				04E3E69B169E1F1500E6EC37 /* JbD_Opus001AppDelegate.h */,
-				04E3E69C169E1F1500E6EC37 /* JbD_Opus001AppDelegate.m */,
-				04E3E6A4169E1F1500E6EC37 /* JbD_Opus001ViewController.h */,
-				04E3E6A5169E1F1500E6EC37 /* JbD_Opus001ViewController.m */,
-				04E3E6A7169E1F1500E6EC37 /* JbD_Opus001ViewController.xib */,
+				04E3E69B169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.h */,
+				04E3E69C169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.m */,
+				04E3E6C8169E21F400E6EC37 /* JbD_Opus001_MainViewController.h */,
+				04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */,
+				04E3E6CB169E228900E6EC37 /* JbD_Opus001_Converter.h */,
+				04E3E6CC169E228900E6EC37 /* JbD_Opus001_Converter.m */,
 				04E3E693169E1F1500E6EC37 /* Supporting Files */,
 			);
 			path = "Pixel Coder";
@@ -96,15 +121,32 @@
 		04E3E693169E1F1500E6EC37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E3E6AF169E1F9700E6EC37 /* Artwork */,
 				04E3E694169E1F1500E6EC37 /* Pixel Coder-Info.plist */,
 				04E3E695169E1F1500E6EC37 /* InfoPlist.strings */,
 				04E3E698169E1F1500E6EC37 /* main.m */,
 				04E3E69A169E1F1500E6EC37 /* Pixel Coder-Prefix.pch */,
-				04E3E69E169E1F1500E6EC37 /* Default.png */,
-				04E3E6A0169E1F1500E6EC37 /* Default@2x.png */,
-				04E3E6A2169E1F1500E6EC37 /* Default-568h@2x.png */,
+				04E3E6CE169E22A700E6EC37 /* Constants.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E3E6AF169E1F9700E6EC37 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */,
+				04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */,
+				04E3E6C0169E20F600E6EC37 /* toButton_normal.png */,
+				04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */,
+				04E3E6C4169E210C00E6EC37 /* keypad_normal.png */,
+				04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */,
+				04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */,
+				04E3E6B8169E204C00E6EC37 /* Default@2x.png */,
+				04E3E6B6169E204000E6EC37 /* Default.png */,
+				04E3E6B4169E203300E6EC37 /* Icon.png */,
+				04E3E6B2169E201900E6EC37 /* Icon@2x.png */,
+			);
+			name = Artwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +202,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E3E697169E1F1500E6EC37 /* InfoPlist.strings in Resources */,
-				04E3E69F169E1F1500E6EC37 /* Default.png in Resources */,
-				04E3E6A1169E1F1500E6EC37 /* Default@2x.png in Resources */,
-				04E3E6A3169E1F1500E6EC37 /* Default-568h@2x.png in Resources */,
-				04E3E6A9169E1F1500E6EC37 /* JbD_Opus001ViewController.xib in Resources */,
+				04E3E6B3169E201900E6EC37 /* Icon@2x.png in Resources */,
+				04E3E6B5169E203300E6EC37 /* Icon.png in Resources */,
+				04E3E6B7169E204000E6EC37 /* Default.png in Resources */,
+				04E3E6B9169E204C00E6EC37 /* Default@2x.png in Resources */,
+				04E3E6BB169E206000E6EC37 /* Default-568h@2x.png in Resources */,
+				04E3E6BE169E20DF00E6EC37 /* bs_button_normal.png in Resources */,
+				04E3E6BF169E20DF00E6EC37 /* bs_button_pressed.png in Resources */,
+				04E3E6C2169E20F600E6EC37 /* toButton_normal.png in Resources */,
+				04E3E6C3169E20F600E6EC37 /* toButton_pressed.png in Resources */,
+				04E3E6C6169E210C00E6EC37 /* keypad_normal.png in Resources */,
+				04E3E6C7169E210C00E6EC37 /* keypad_pressed.png in Resources */,
+				04E3E6D2169E30AB00E6EC37 /* iTunesArtwork@2x.png in Resources */,
+				04E3E6D4169E30E600E6EC37 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E3E699169E1F1500E6EC37 /* main.m in Sources */,
-				04E3E69D169E1F1500E6EC37 /* JbD_Opus001AppDelegate.m in Sources */,
-				04E3E6A6169E1F1500E6EC37 /* JbD_Opus001ViewController.m in Sources */,
+				04E3E69D169E1F1500E6EC37 /* JbD_Opus001_AppDelegate.m in Sources */,
+				04E3E6CA169E21F400E6EC37 /* JbD_Opus001_MainViewController.m in Sources */,
+				04E3E6CD169E228900E6EC37 /* JbD_Opus001_Converter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,14 +243,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		04E3E6A7169E1F1500E6EC37 /* JbD_Opus001ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E3E6A8169E1F1500E6EC37 /* en */,
-			);
-			name = JbD_Opus001ViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -211,6 +255,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -225,7 +270,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -239,14 +285,18 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,6 +308,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,6 +321,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
