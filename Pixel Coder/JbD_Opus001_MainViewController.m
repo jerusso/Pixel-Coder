@@ -311,7 +311,6 @@
     [pointButton setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
     [pointButton addTarget:self action: @selector(convertToPoints:) forControlEvents:UIControlEventTouchUpInside];
     
-    
     //add buttons to inputAccessoryView
     [mainTextField.inputAccessoryView addSubview:pixelButton];
     [mainTextField.inputAccessoryView addSubview:pointButton];
@@ -336,7 +335,7 @@
 
 - (void) pressDigitButton:(UIButton *)sender
 {
-    if (displayString.length >= 3) {
+    if (displayString.length == 3) {
         return;
     } else {
         int numberPressed = sender.tag;
@@ -346,10 +345,18 @@
     
 }
 
+- (void) processDigit:(int)numberPressed
+{
+    [displayString appendString:[NSString stringWithFormat:@"%i", numberPressed]];
+    mainTextField.text = displayString;
+    
+}
+
 - (void)pressBsButton:(UIButton *)sender
 {
     
-    if ((displayString.length > 3) || (displayString.length == 0)) {
+    //delete one digit at a time
+    if (displayString.length == 0) {
         return;
     } else if (displayString.length == 1){
         NSRange currentRange = {0,1};
@@ -362,8 +369,13 @@
         [displayString deleteCharactersInRange:currentRange];
     }
     
+    //display new string after deletion
     mainTextField.text = displayString;
     
+    /*
+      display "enter base value" message once all values are deleted
+      AND basevalue is not set
+    */
     if (displayString.length == 0 && !baseValue) {
         [mainTextField addSubview:insetLabel];
     }
@@ -371,17 +383,40 @@
 
 -(void) pressBaseButton: (UIButton *) sender
 {
-    //throw up alert that base is not set
-    if (!baseValue) {
-        if (displayString.length == 0 || displayString == @"0") {
+
+    //throw up alert if display is empty or equal
+    if ((displayString.length == 0) || ([displayString intValue] == 0)) {
+        
+        //throw up alert that base is not set ONLY if there isn't
+        //a base value already set
+        if (!baseValue) {
             [noBaseValueAlert show];
         }
+        
+        //clear display
+        if (displayString.length == 1) {
+            NSRange currentRange = {0,1};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 2) {
+            NSRange currentRange = {0,2};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 3) {
+            NSRange currentRange = {0,3};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        }
+        
     }
-    
+
     //add leading zero removal condition
-    NSRange firstAndSecondDigits = {0,2};
-    if (displayString.length >= 2) { //disables crash due to display string being nil
-        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:firstAndSecondDigits];
+    NSRange oneDigit = {0,1};
+    if (displayString.length == 2) { //disables crash due to display string being nil
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 3) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
     
     baseValue = [displayString intValue];
@@ -408,38 +443,52 @@
     baseValueLabel.backgroundColor = [UIColor clearColor];
     [mainTextField addSubview:baseValueLabel];
     
-    //clear display
+    //clear display after base is set
     if (displayString.length == 1){
         NSRange currentRange = {0,1};
         [displayString deleteCharactersInRange:currentRange];
+        mainTextField.text = displayString;
         [insetLabel removeFromSuperview];
     } else if (displayString.length == 2) {
         NSRange currentRange = {0,2};
         [displayString deleteCharactersInRange:currentRange];
+        mainTextField.text = displayString;
         [insetLabel removeFromSuperview];
     } else if (displayString.length == 3) {
         NSRange currentRange = {0,3};
         [displayString deleteCharactersInRange:currentRange];
+        mainTextField.text = displayString;
         [insetLabel removeFromSuperview];
     }
-    
-    mainTextField.text = displayString;
-    
-}
 
-- (void) processDigit:(int)numberPressed
-{
-    [displayString appendString:[NSString stringWithFormat:@"%i", numberPressed]];
-    mainTextField.text = displayString;
-    
 }
 
 - (void) convertToPixels: (UIButton *) sender;
 {
     //throw up alert that base is not set
     if (!baseValue) {
+        
         [noBaseValueAlert show];
+        
+        //clear display
+        if (displayString.length == 1){
+            NSRange currentRange = {0,1};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 2) {
+            NSRange currentRange = {0,2};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 3) {
+            NSRange currentRange = {0,3};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        }
+        
+        [mainTextField addSubview:insetLabel];
+    
         return;
+        
     } else if (displayString.length == 0){
         [noConversionValueAlert show];
         return;
@@ -453,14 +502,18 @@
     [myConverter setBaseValue:baseValue];
     
     //add leading zero removal condition
-    NSRange firstAndSecondDigits = {0,2};
-    if (displayString.length >= 2) { //disables crash due to display string being nil
-        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:firstAndSecondDigits];
-        mainTextField.text = displayString;
+    NSRange oneDigit = {0,1};
+    if (displayString.length == 2) { //disables crash due to display string being nil
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 3) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
     
+    mainTextField.text = displayString;
+    
     //set value to convert
-    [myConverter setValueToConvert:[displayString intValue]];
+    [myConverter setValueToConvert:[mainTextField.text intValue]];
     
     //convert to pixel, em, and percent
     int currentPixelValue = [myConverter convertToPixel];
@@ -547,8 +600,28 @@
 {
     //throw up alert that base is not set
     if (!baseValue) {
+        
         [noBaseValueAlert show];
+        
+        //clear display
+        if (displayString.length == 1){
+            NSRange currentRange = {0,1};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 2) {
+            NSRange currentRange = {0,2};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 3) {
+            NSRange currentRange = {0,3};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        }
+        
+        [mainTextField addSubview:insetLabel];
+        
         return;
+        
     } else if (displayString.length == 0){
         [noConversionValueAlert show];
         return;
@@ -562,14 +635,18 @@
     [myConverter setBaseValue:baseValue];
     
     //add leading zero removal condition
-    NSRange firstAndSecondDigits = {0,2};
-    if (displayString.length >= 2) { //disables crash due to display string being nil
-        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:firstAndSecondDigits];
-        mainTextField.text = displayString;
+    NSRange oneDigit = {0,1};
+    if (displayString.length == 2) { //disables crash due to display string being nil
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 3) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
     
+     mainTextField.text = displayString;
+    
     //set value to convert
-    [myConverter setValueToConvert:[displayString intValue]];
+    [myConverter setValueToConvert:[mainTextField.text intValue]];
     
     //convert to point, em, and percent
     int currentPointValue = [myConverter convertToPoint];
