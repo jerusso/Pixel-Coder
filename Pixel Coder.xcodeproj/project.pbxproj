@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0461CD5B16C6CAA300C7FEEF /* bs_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5516C6CAA300C7FEEF /* bs_button_normal.png */; };
+		0461CD5C16C6CAA300C7FEEF /* bs_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5616C6CAA300C7FEEF /* bs_button_pressed.png */; };
+		0461CD5D16C6CAA300C7FEEF /* keypad_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5716C6CAA300C7FEEF /* keypad_normal.png */; };
+		0461CD5E16C6CAA300C7FEEF /* keypad_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5816C6CAA300C7FEEF /* keypad_pressed.png */; };
+		0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5916C6CAA300C7FEEF /* toButton_normal.png */; };
+		0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */; };
 		04E3E68D169E1F1500E6EC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68C169E1F1500E6EC37 /* UIKit.framework */; };
 		04E3E68F169E1F1500E6EC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68E169E1F1500E6EC37 /* Foundation.framework */; };
 		04E3E691169E1F1500E6EC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E690169E1F1500E6EC37 /* CoreGraphics.framework */; };
@@ -18,12 +24,6 @@
 		04E3E6B7169E204000E6EC37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B6169E204000E6EC37 /* Default.png */; };
 		04E3E6B9169E204C00E6EC37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6B8169E204C00E6EC37 /* Default@2x.png */; };
 		04E3E6BB169E206000E6EC37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */; };
-		04E3E6BE169E20DF00E6EC37 /* bs_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */; };
-		04E3E6BF169E20DF00E6EC37 /* bs_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */; };
-		04E3E6C2169E20F600E6EC37 /* toButton_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C0169E20F600E6EC37 /* toButton_normal.png */; };
-		04E3E6C3169E20F600E6EC37 /* toButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */; };
-		04E3E6C6169E210C00E6EC37 /* keypad_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C4169E210C00E6EC37 /* keypad_normal.png */; };
-		04E3E6C7169E210C00E6EC37 /* keypad_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */; };
 		04E3E6CA169E21F400E6EC37 /* JbD_Opus001_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */; };
 		04E3E6CD169E228900E6EC37 /* JbD_Opus001_Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3E6CC169E228900E6EC37 /* JbD_Opus001_Converter.m */; };
 		04E3E6D2169E30AB00E6EC37 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E3E6D1169E30AB00E6EC37 /* iTunesArtwork@2x.png */; };
@@ -31,6 +31,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0461CD5516C6CAA300C7FEEF /* bs_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs_button_normal.png; sourceTree = "<group>"; };
+		0461CD5616C6CAA300C7FEEF /* bs_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs_button_pressed.png; sourceTree = "<group>"; };
+		0461CD5716C6CAA300C7FEEF /* keypad_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad_normal.png; sourceTree = "<group>"; };
+		0461CD5816C6CAA300C7FEEF /* keypad_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad_pressed.png; sourceTree = "<group>"; };
+		0461CD5916C6CAA300C7FEEF /* toButton_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_normal.png; sourceTree = "<group>"; };
+		0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_pressed.png; sourceTree = "<group>"; };
 		04E3E688169E1F1500E6EC37 /* Pixel Coder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Coder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3E68C169E1F1500E6EC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04E3E68E169E1F1500E6EC37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,12 +52,6 @@
 		04E3E6B6169E204000E6EC37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		04E3E6B8169E204C00E6EC37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bs_button_normal.png; path = ../../../WiP/Icons/Apps/Opus001/bs_button_normal.png; sourceTree = "<group>"; };
-		04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bs_button_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/bs_button_pressed.png; sourceTree = "<group>"; };
-		04E3E6C0169E20F600E6EC37 /* toButton_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toButton_normal.png; path = ../../../WiP/Icons/Apps/Opus001/toButton_normal.png; sourceTree = "<group>"; };
-		04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toButton_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/toButton_pressed.png; sourceTree = "<group>"; };
-		04E3E6C4169E210C00E6EC37 /* keypad_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keypad_normal.png; path = ../../../WiP/Icons/Apps/Opus001/keypad_normal.png; sourceTree = "<group>"; };
-		04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keypad_pressed.png; path = ../../../WiP/Icons/Apps/Opus001/keypad_pressed.png; sourceTree = "<group>"; };
 		04E3E6C8169E21F400E6EC37 /* JbD_Opus001_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001_MainViewController.h; sourceTree = "<group>"; };
 		04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JbD_Opus001_MainViewController.m; sourceTree = "<group>"; };
 		04E3E6CB169E228900E6EC37 /* JbD_Opus001_Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JbD_Opus001_Converter.h; sourceTree = "<group>"; };
@@ -134,12 +134,12 @@
 		04E3E6AF169E1F9700E6EC37 /* Artwork */ = {
 			isa = PBXGroup;
 			children = (
-				04E3E6BC169E20DF00E6EC37 /* bs_button_normal.png */,
-				04E3E6BD169E20DF00E6EC37 /* bs_button_pressed.png */,
-				04E3E6C0169E20F600E6EC37 /* toButton_normal.png */,
-				04E3E6C1169E20F600E6EC37 /* toButton_pressed.png */,
-				04E3E6C4169E210C00E6EC37 /* keypad_normal.png */,
-				04E3E6C5169E210C00E6EC37 /* keypad_pressed.png */,
+				0461CD5516C6CAA300C7FEEF /* bs_button_normal.png */,
+				0461CD5616C6CAA300C7FEEF /* bs_button_pressed.png */,
+				0461CD5716C6CAA300C7FEEF /* keypad_normal.png */,
+				0461CD5816C6CAA300C7FEEF /* keypad_pressed.png */,
+				0461CD5916C6CAA300C7FEEF /* toButton_normal.png */,
+				0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */,
 				04E3E6BA169E206000E6EC37 /* Default-568h@2x.png */,
 				04E3E6B8169E204C00E6EC37 /* Default@2x.png */,
 				04E3E6B6169E204000E6EC37 /* Default.png */,
@@ -207,14 +207,14 @@
 				04E3E6B7169E204000E6EC37 /* Default.png in Resources */,
 				04E3E6B9169E204C00E6EC37 /* Default@2x.png in Resources */,
 				04E3E6BB169E206000E6EC37 /* Default-568h@2x.png in Resources */,
-				04E3E6BE169E20DF00E6EC37 /* bs_button_normal.png in Resources */,
-				04E3E6BF169E20DF00E6EC37 /* bs_button_pressed.png in Resources */,
-				04E3E6C2169E20F600E6EC37 /* toButton_normal.png in Resources */,
-				04E3E6C3169E20F600E6EC37 /* toButton_pressed.png in Resources */,
-				04E3E6C6169E210C00E6EC37 /* keypad_normal.png in Resources */,
-				04E3E6C7169E210C00E6EC37 /* keypad_pressed.png in Resources */,
 				04E3E6D2169E30AB00E6EC37 /* iTunesArtwork@2x.png in Resources */,
 				04E3E6D4169E30E600E6EC37 /* iTunesArtwork.png in Resources */,
+				0461CD5B16C6CAA300C7FEEF /* bs_button_normal.png in Resources */,
+				0461CD5C16C6CAA300C7FEEF /* bs_button_pressed.png in Resources */,
+				0461CD5D16C6CAA300C7FEEF /* keypad_normal.png in Resources */,
+				0461CD5E16C6CAA300C7FEEF /* keypad_pressed.png in Resources */,
+				0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */,
+				0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
