@@ -335,7 +335,7 @@
 
 - (void) pressDigitButton:(UIButton *)sender
 {
-    if (displayString.length == 3) {
+    if (displayString.length == 4) {
         return;
     } else {
         int numberPressed = sender.tag;
@@ -366,6 +366,9 @@
         [displayString deleteCharactersInRange:currentRange];
     } else if (displayString.length == 3) {
         NSRange currentRange = {2,1};
+        [displayString deleteCharactersInRange:currentRange];
+    } else if (displayString.length == 4) {
+        NSRange currentRange = {3,1};
         [displayString deleteCharactersInRange:currentRange];
     }
     
