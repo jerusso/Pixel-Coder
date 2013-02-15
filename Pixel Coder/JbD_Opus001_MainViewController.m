@@ -435,7 +435,7 @@
     }
     
     //add base value button to mainTextField
-    CGRect baseValueLabelRect = CGRectMake(5.0f, 0.0f, 30.0f, 26.0f);
+    CGRect baseValueLabelRect = CGRectMake(5.0f, 0.0f, 40.0f, 26.0f);
     NSParagraphStyle *baseValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *baseValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:18.0f], NSFontAttributeName,[UIColor colorWithRed:0.0f green:0.50f blue:1.0f alpha:1.0f], NSForegroundColorAttributeName, baseValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *baseValueLabelText = [[NSAttributedString alloc] initWithString: displayString attributes:baseValueLabelTextDictionary];
