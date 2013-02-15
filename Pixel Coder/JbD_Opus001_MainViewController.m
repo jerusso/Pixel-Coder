@@ -387,7 +387,7 @@
 -(void) pressBaseButton: (UIButton *) sender
 {
 
-    //throw up alert if display is empty or equal
+    //throw up alert if display is empty or equal to zero
     if ((displayString.length == 0) || ([displayString intValue] == 0)) {
         
         //throw up alert that base is not set ONLY if there isn't
