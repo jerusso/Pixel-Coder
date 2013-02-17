@@ -425,6 +425,10 @@
     } else if (displayString.length == 3) {
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 4) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
     
     baseValue = [displayString intValue];
@@ -495,6 +499,10 @@
             NSRange currentRange = {0,3};
             [displayString deleteCharactersInRange:currentRange];
             mainTextField.text = displayString;
+        } else if (displayString.length == 4) {
+            NSRange currentRange = {0,4};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
         }
         
         [mainTextField addSubview:insetLabel];
@@ -518,6 +526,10 @@
     if (displayString.length == 2) { //disables crash due to display string being nil
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     } else if (displayString.length == 3) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 4) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
@@ -604,6 +616,9 @@
     } else if (displayString.length == 3) {
         NSRange currentRange = {0,3};
         [displayString deleteCharactersInRange:currentRange];
+    } else if (displayString.length == 4) {
+        NSRange currentRange = {0,4};
+        [displayString deleteCharactersInRange:currentRange];
     }
     
 }
@@ -626,6 +641,10 @@
             mainTextField.text = displayString;
         } else if (displayString.length == 3) {
             NSRange currentRange = {0,3};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
+        } else if (displayString.length == 4) {
+            NSRange currentRange = {0,4};
             [displayString deleteCharactersInRange:currentRange];
             mainTextField.text = displayString;
         }
@@ -653,7 +672,12 @@
     } else if (displayString.length == 3) {
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
         [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+    } else if (displayString.length == 4) {
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
+        [displayString replaceOccurrencesOfString:@"0" withString:@"" options:NSLiteralSearch range:oneDigit];
     }
+
     
      mainTextField.text = displayString;
     
@@ -736,6 +760,9 @@
         [displayString deleteCharactersInRange:currentRange];
     } else if (displayString.length == 3) {
         NSRange currentRange = {0,3};
+        [displayString deleteCharactersInRange:currentRange];
+    } else if (displayString.length == 4) {
+        NSRange currentRange = {0,4};
         [displayString deleteCharactersInRange:currentRange];
     }
     
