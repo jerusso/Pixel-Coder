@@ -27,7 +27,7 @@
     noConversionValueAlert = [[UIAlertView alloc] initWithTitle:@"No Conversion Value" message:@"Enter a value and tap a conversion button" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
     
     //init displayString
-    displayString = [NSMutableString stringWithCapacity:2];
+    displayString = [NSMutableString stringWithCapacity:4];
     
     //init Converter
     myConverter = [[JbD_Opus001_Converter alloc] init];
@@ -409,7 +409,12 @@
             NSRange currentRange = {0,3};
             [displayString deleteCharactersInRange:currentRange];
             mainTextField.text = displayString;
+        } else if (displayString.length == 4) {
+            NSRange currentRange = {0,4};
+            [displayString deleteCharactersInRange:currentRange];
+            mainTextField.text = displayString;
         }
+        
         
     }
 
@@ -459,6 +464,10 @@
         [insetLabel removeFromSuperview];
     } else if (displayString.length == 3) {
         NSRange currentRange = {0,3};
+        [displayString deleteCharactersInRange:currentRange];
+        mainTextField.text = displayString;
+    } else if (displayString.length == 4) {
+        NSRange currentRange = {0,4};
         [displayString deleteCharactersInRange:currentRange];
         mainTextField.text = displayString;
         [insetLabel removeFromSuperview];
