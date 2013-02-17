@@ -75,7 +75,7 @@
     
     
     //build and add percent UOM label
-    CGRect percentUOMLabelRect = CGRectMake(240.0f, 20.0f, 30.0f, 30.0f);
+    CGRect percentUOMLabelRect = CGRectMake(260.0f, 20.0f, 30.0f, 30.0f);
     NSParagraphStyle *percentUOMLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *percentUOMLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:24.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, percentUOMLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *percentUOMLabelText = [[NSAttributedString alloc] initWithString: @"%" attributes:percentUOMLabelTextDictionary];
@@ -84,7 +84,7 @@
     percentUOMLabel.backgroundColor = [UIColor clearColor];
     
     //build and add ems UOM Label
-    CGRect emsUOMLabelRect = CGRectMake(240.0f, 20.0f, 35.0f, 30.0f);
+    CGRect emsUOMLabelRect = CGRectMake(260.0f, 20.0f, 35.0f, 30.0f);
     NSParagraphStyle *emsUOMLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *emsUOMLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:24.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, emsUOMLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *emsUOMLabelText = [[NSAttributedString alloc] initWithString: @"em" attributes:emsUOMLabelTextDictionary];
@@ -415,7 +415,6 @@
             mainTextField.text = displayString;
         }
         
-        
     }
 
     //add leading zero removal condition
@@ -547,10 +546,10 @@
     //change int and float values to string for display
     NSString *pxValueString = [NSString stringWithFormat:@"%i", currentPixelValue];
     NSString *emsValueString = [NSString stringWithFormat:@"%3.2f", currentEmsValue];
-    NSString *percentValueString = [NSString stringWithFormat:@"%3.2f", currentPercentValue];
+    NSString *percentValueString = [NSString stringWithFormat:@"%5.2f", currentPercentValue];
     
     //build pixel UOM label
-    CGRect pxUOMLabelRect = CGRectMake(240.0f, 20.0f, 30.0f, 30.0f);
+    CGRect pxUOMLabelRect = CGRectMake(260.0f, 20.0f, 30.0f, 30.0f);
     NSParagraphStyle *pxUOMLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *pxUOMLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:24.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, pxUOMLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *pxUOMLabelText = [[NSAttributedString alloc] initWithString: @"px" attributes:pxUOMLabelTextDictionary];
@@ -561,7 +560,7 @@
     pxUOMLabel.backgroundColor = [UIColor clearColor];
     
     //build pixel value label
-    CGRect pxValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect pxValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *pxValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *pxValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, pxValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *pxValueLabelText = [[NSAttributedString alloc] initWithString: pxValueString attributes:pxValueLabelTextDictionary];
@@ -573,7 +572,7 @@
     pxValueLabel.backgroundColor = [UIColor clearColor];
     
     //build percent value label
-    CGRect percentValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect percentValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *percentValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *percentValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, percentValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *percentValueLabelText = [[NSAttributedString alloc] initWithString: percentValueString attributes:percentValueLabelTextDictionary];
@@ -585,7 +584,7 @@
     percentValueLabel.backgroundColor = [UIColor clearColor];
     
     //build ems value label
-    CGRect emsValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect emsValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *emsValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *emsValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, emsValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *emsValueLabelText = [[NSAttributedString alloc] initWithString: emsValueString attributes:emsValueLabelTextDictionary];
@@ -692,10 +691,10 @@
     //change int and float values to string for display
     NSString *ptValueString = [NSString stringWithFormat:@"%i", currentPointValue];
     NSString *emsValueString = [NSString stringWithFormat:@"%3.2f", currentEmsValue];
-    NSString *percentValueString = [NSString stringWithFormat:@"%3.2f", currentPercentValue];
+    NSString *percentValueString = [NSString stringWithFormat:@"%5.2f", currentPercentValue];
     
     //build point UOM label
-    CGRect ptUOMLabelRect = CGRectMake(240.0f, 20.0f, 30.0f, 30.0f);
+    CGRect ptUOMLabelRect = CGRectMake(260.0f, 20.0f, 30.0f, 30.0f);
     NSParagraphStyle *ptUOMLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *ptUOMLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:24.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, ptUOMLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *ptUOMLabelText = [[NSAttributedString alloc] initWithString: @"pt" attributes:ptUOMLabelTextDictionary];
