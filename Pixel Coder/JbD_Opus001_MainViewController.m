@@ -705,7 +705,7 @@
     ptUOMLabel.backgroundColor = [UIColor clearColor];
     
     //build point value label
-    CGRect ptValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect ptValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *ptValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *ptValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, ptValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *ptValueLabelText = [[NSAttributedString alloc] initWithString: ptValueString attributes:ptValueLabelTextDictionary];
@@ -717,7 +717,7 @@
     ptValueLabel.backgroundColor = [UIColor clearColor];
     
     //build percent value label
-    CGRect percentValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect percentValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *percentValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *percentValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, percentValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *percentValueLabelText = [[NSAttributedString alloc] initWithString: percentValueString attributes:percentValueLabelTextDictionary];
@@ -729,7 +729,7 @@
     percentValueLabel.backgroundColor = [UIColor clearColor];
     
     //build ems value label
-    CGRect emsValueLabelRect = CGRectMake(0.0f, 15.0f, 220.0f, 40.0f);
+    CGRect emsValueLabelRect = CGRectMake(0.0f, 15.0f, 240.0f, 40.0f);
     NSParagraphStyle *emsValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *emsValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:50.0f], NSFontAttributeName,[UIColor whiteColor], NSForegroundColorAttributeName, emsValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *emsValueLabelText = [[NSAttributedString alloc] initWithString: emsValueString attributes:emsValueLabelTextDictionary];
