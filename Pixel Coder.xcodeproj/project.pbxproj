@@ -178,6 +178,11 @@
 				CLASSPREFIX = JbD_Opus001;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "John E Russo";
+				TargetAttributes = {
+					04E3E687169E1F1500E6EC37 = {
+						DevelopmentTeam = 7579FU3726;
+					};
+				};
 			};
 			buildConfigurationList = 04E3E682169E1F1500E6EC37 /* Build configuration list for PBXProject "Pixel Coder" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -305,12 +310,15 @@
 		04E3E6AD169E1F1500E6EC37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -318,12 +326,15 @@
 		04E3E6AE169E1F1500E6EC37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
