@@ -42,7 +42,7 @@
     mainNavBar.barStyle = UIBarStyleBlack;
     
     //customize title text
-    NSDictionary *titleTextProperties = [[NSDictionary alloc] initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:18.0f], UITextAttributeFont, [UIColor whiteColor], UITextAttributeTextColor, nil];
+    NSDictionary *titleTextProperties = [[NSDictionary alloc] initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:18.0f], NSFontAttributeName, [UIColor whiteColor], NSForegroundColorAttributeName, nil];
     mainNavBar.titleTextAttributes = titleTextProperties;
     self.title = @"Pixel Coder";
     
