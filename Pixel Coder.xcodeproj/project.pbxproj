@@ -338,7 +338,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "9743EE04-6843-40CD-BABE-3ED99B7E3154";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -346,15 +346,15 @@
 		04E3E6AE169E1F1500E6EC37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "5FC5C87D-8782-4EB2-9CE2-AFDCC0483710";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
