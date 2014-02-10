@@ -101,7 +101,7 @@
     mainTextField.clearsOnBeginEditing = YES;
     mainTextField.textAlignment = NSTextAlignmentCenter;
     mainTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-    mainTextField.font = [UIFont fontWithName:@"Helvetica" size:120.0f];
+    mainTextField.font = [UIFont fontWithName:@"Helvetica" size:90.0f];
     mainTextField.delegate = self;
     [self.view addSubview:mainTextField];
     
