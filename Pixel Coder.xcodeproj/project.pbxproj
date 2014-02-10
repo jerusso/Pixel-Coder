@@ -13,6 +13,11 @@
 		0461CD5E16C6CAA300C7FEEF /* keypad_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5816C6CAA300C7FEEF /* keypad_pressed.png */; };
 		0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5916C6CAA300C7FEEF /* toButton_normal.png */; };
 		0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */; };
+		04AB3C1018A973550005EBBE /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C0F18A973550005EBBE /* Icon-120.png */; };
+		04AB3C1418A973FC0005EBBE /* Icon-29-spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C1118A973FC0005EBBE /* Icon-29-spotlight.png */; };
+		04AB3C1518A973FC0005EBBE /* Icon-58-spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C1218A973FC0005EBBE /* Icon-58-spotlight.png */; };
+		04AB3C1618A973FC0005EBBE /* Icon-80-spotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C1318A973FC0005EBBE /* Icon-80-spotlight.png */; };
+		04AB3C1C18A974C40005EBBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C1B18A974C40005EBBE /* Images.xcassets */; };
 		04E3E68D169E1F1500E6EC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68C169E1F1500E6EC37 /* UIKit.framework */; };
 		04E3E68F169E1F1500E6EC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68E169E1F1500E6EC37 /* Foundation.framework */; };
 		04E3E691169E1F1500E6EC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E690169E1F1500E6EC37 /* CoreGraphics.framework */; };
@@ -37,6 +42,11 @@
 		0461CD5816C6CAA300C7FEEF /* keypad_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad_pressed.png; sourceTree = "<group>"; };
 		0461CD5916C6CAA300C7FEEF /* toButton_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_normal.png; sourceTree = "<group>"; };
 		0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_pressed.png; sourceTree = "<group>"; };
+		04AB3C0F18A973550005EBBE /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		04AB3C1118A973FC0005EBBE /* Icon-29-spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29-spotlight.png"; sourceTree = "<group>"; };
+		04AB3C1218A973FC0005EBBE /* Icon-58-spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58-spotlight.png"; sourceTree = "<group>"; };
+		04AB3C1318A973FC0005EBBE /* Icon-80-spotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80-spotlight.png"; sourceTree = "<group>"; };
+		04AB3C1B18A974C40005EBBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04E3E688169E1F1500E6EC37 /* Pixel Coder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Coder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3E68C169E1F1500E6EC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04E3E68E169E1F1500E6EC37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,6 +123,7 @@
 				04E3E6C9169E21F400E6EC37 /* JbD_Opus001_MainViewController.m */,
 				04E3E6CB169E228900E6EC37 /* JbD_Opus001_Converter.h */,
 				04E3E6CC169E228900E6EC37 /* JbD_Opus001_Converter.m */,
+				04AB3C1B18A974C40005EBBE /* Images.xcassets */,
 				04E3E693169E1F1500E6EC37 /* Supporting Files */,
 			);
 			path = "Pixel Coder";
@@ -134,6 +145,10 @@
 		04E3E6AF169E1F9700E6EC37 /* Artwork */ = {
 			isa = PBXGroup;
 			children = (
+				04AB3C1118A973FC0005EBBE /* Icon-29-spotlight.png */,
+				04AB3C1218A973FC0005EBBE /* Icon-58-spotlight.png */,
+				04AB3C1318A973FC0005EBBE /* Icon-80-spotlight.png */,
+				04AB3C0F18A973550005EBBE /* Icon-120.png */,
 				0461CD5516C6CAA300C7FEEF /* bs_button_normal.png */,
 				0461CD5616C6CAA300C7FEEF /* bs_button_pressed.png */,
 				0461CD5716C6CAA300C7FEEF /* keypad_normal.png */,
@@ -209,16 +224,21 @@
 				04E3E697169E1F1500E6EC37 /* InfoPlist.strings in Resources */,
 				04E3E6B3169E201900E6EC37 /* Icon@2x.png in Resources */,
 				04E3E6B5169E203300E6EC37 /* Icon.png in Resources */,
+				04AB3C1518A973FC0005EBBE /* Icon-58-spotlight.png in Resources */,
 				04E3E6B7169E204000E6EC37 /* Default.png in Resources */,
+				04AB3C1418A973FC0005EBBE /* Icon-29-spotlight.png in Resources */,
 				04E3E6B9169E204C00E6EC37 /* Default@2x.png in Resources */,
 				04E3E6BB169E206000E6EC37 /* Default-568h@2x.png in Resources */,
 				04E3E6D2169E30AB00E6EC37 /* iTunesArtwork@2x.png in Resources */,
 				04E3E6D4169E30E600E6EC37 /* iTunesArtwork.png in Resources */,
 				0461CD5B16C6CAA300C7FEEF /* bs_button_normal.png in Resources */,
+				04AB3C1618A973FC0005EBBE /* Icon-80-spotlight.png in Resources */,
 				0461CD5C16C6CAA300C7FEEF /* bs_button_pressed.png in Resources */,
 				0461CD5D16C6CAA300C7FEEF /* keypad_normal.png in Resources */,
 				0461CD5E16C6CAA300C7FEEF /* keypad_pressed.png in Resources */,
+				04AB3C1C18A974C40005EBBE /* Images.xcassets in Resources */,
 				0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */,
+				04AB3C1018A973550005EBBE /* Icon-120.png in Resources */,
 				0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -331,7 +351,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pixel Coder/Pixel Coder-Prefix.pch";
 				INFOPLIST_FILE = "Pixel Coder/Pixel Coder-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
