@@ -101,12 +101,12 @@
     mainTextField.clearsOnBeginEditing = YES;
     mainTextField.textAlignment = NSTextAlignmentCenter;
     mainTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-    mainTextField.font = [UIFont fontWithName:@"Helvetica" size:90.0f];
+    mainTextField.font = [UIFont fontWithName:@"Helvetica" size:110.0f];
     mainTextField.delegate = self;
     [self.view addSubview:mainTextField];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[mainTextField(320)]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(mainTextField)]];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[mainTextField(>=187)]-1-[firstConversionView(73)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(mainTextField,firstConversionView)]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-60-[mainTextField(>=187)]-1-[firstConversionView(73)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(mainTextField,firstConversionView)]];
     
     //build and add label text subview
     CGRect labelRect = CGRectMake(115.0f, 167.0f, 90.0f, 15.0f);
@@ -443,7 +443,7 @@
     }
     
     //add base value button to mainTextField
-    CGRect baseValueLabelRect = CGRectMake(5.0f, 65.0f, 40.0f, 26.0f);
+    CGRect baseValueLabelRect = CGRectMake(5.0f, 5.0f, 40.0f, 26.0f);
     NSParagraphStyle *baseValueLabelStyle = [NSParagraphStyle defaultParagraphStyle];
     NSDictionary *baseValueLabelTextDictionary = [[NSDictionary alloc]initWithObjectsAndKeys:[UIFont fontWithName:@"Helvetica" size:18.0f], NSFontAttributeName,[UIColor colorWithRed:0.0f green:0.50f blue:1.0f alpha:1.0f], NSForegroundColorAttributeName, baseValueLabelStyle, NSParagraphStyleAttributeName, nil];
     NSAttributedString *baseValueLabelText = [[NSAttributedString alloc] initWithString: displayString attributes:baseValueLabelTextDictionary];
