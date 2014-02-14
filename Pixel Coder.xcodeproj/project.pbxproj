@@ -14,6 +14,9 @@
 		0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5916C6CAA300C7FEEF /* toButton_normal.png */; };
 		0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */; };
 		04AB3C1C18A974C40005EBBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AB3C1B18A974C40005EBBE /* Images.xcassets */; };
+		04C51CE918ADA90100EDA4E9 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C51CE618ADA90100EDA4E9 /* Icon-58.png */; };
+		04C51CEA18ADA90100EDA4E9 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C51CE718ADA90100EDA4E9 /* Icon-80.png */; };
+		04C51CEB18ADA90100EDA4E9 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C51CE818ADA90100EDA4E9 /* Icon-120.png */; };
 		04E3E68D169E1F1500E6EC37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68C169E1F1500E6EC37 /* UIKit.framework */; };
 		04E3E68F169E1F1500E6EC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E68E169E1F1500E6EC37 /* Foundation.framework */; };
 		04E3E691169E1F1500E6EC37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3E690169E1F1500E6EC37 /* CoreGraphics.framework */; };
@@ -39,6 +42,9 @@
 		0461CD5916C6CAA300C7FEEF /* toButton_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_normal.png; sourceTree = "<group>"; };
 		0461CD5A16C6CAA300C7FEEF /* toButton_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toButton_pressed.png; sourceTree = "<group>"; };
 		04AB3C1B18A974C40005EBBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04C51CE618ADA90100EDA4E9 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		04C51CE718ADA90100EDA4E9 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		04C51CE818ADA90100EDA4E9 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		04E3E688169E1F1500E6EC37 /* Pixel Coder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Coder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E3E68C169E1F1500E6EC37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04E3E68E169E1F1500E6EC37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +143,9 @@
 		04E3E6AF169E1F9700E6EC37 /* Artwork */ = {
 			isa = PBXGroup;
 			children = (
+				04C51CE618ADA90100EDA4E9 /* Icon-58.png */,
+				04C51CE718ADA90100EDA4E9 /* Icon-80.png */,
+				04C51CE818ADA90100EDA4E9 /* Icon-120.png */,
 				0461CD5516C6CAA300C7FEEF /* bs_button_normal.png */,
 				0461CD5616C6CAA300C7FEEF /* bs_button_pressed.png */,
 				0461CD5716C6CAA300C7FEEF /* keypad_normal.png */,
@@ -210,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E3E697169E1F1500E6EC37 /* InfoPlist.strings in Resources */,
+				04C51CE918ADA90100EDA4E9 /* Icon-58.png in Resources */,
 				04E3E6B3169E201900E6EC37 /* Icon@2x.png in Resources */,
 				04E3E6B5169E203300E6EC37 /* Icon.png in Resources */,
 				04E3E6B7169E204000E6EC37 /* Default.png in Resources */,
@@ -222,7 +232,9 @@
 				0461CD5D16C6CAA300C7FEEF /* keypad_normal.png in Resources */,
 				0461CD5E16C6CAA300C7FEEF /* keypad_pressed.png in Resources */,
 				04AB3C1C18A974C40005EBBE /* Images.xcassets in Resources */,
+				04C51CEA18ADA90100EDA4E9 /* Icon-80.png in Resources */,
 				0461CD5F16C6CAA300C7FEEF /* toButton_normal.png in Resources */,
+				04C51CEB18ADA90100EDA4E9 /* Icon-120.png in Resources */,
 				0461CD6016C6CAA300C7FEEF /* toButton_pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
