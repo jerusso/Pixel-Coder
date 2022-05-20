@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1763B9BF1C424C3697AFA4F2D6680EF8539C14C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F1763B9BF1C424C3697AFA4F2D6680EF8539C14C" : 0,
+    "1CF75553-97B1-441F-BDF6-FE0FE15FB55B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03292DB2-07E7-4BE7-A098-F5BE0B9094D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F1763B9BF1C424C3697AFA4F2D6680EF8539C14C" : "Pixel%20Coder",
+    "1CF75553-97B1-441F-BDF6-FE0FE15FB55B" : "Pixel Coder"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pixel Coder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pixel Coder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jerusso\/Pixel-Coder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CF75553-97B1-441F-BDF6-FE0FE15FB55B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jerusso\/Pixel-Coder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1763B9BF1C424C3697AFA4F2D6680EF8539C14C"
+    }
+  ]
+}
